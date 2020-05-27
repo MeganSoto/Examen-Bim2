@@ -27,7 +27,7 @@
 
         <div  class="p-3 mb-2  text-white" align="center">
 
-            <h1>VENTAS MEMA</h1>
+            <h1>Registros</h1>
 
         </div>
 		</body>
