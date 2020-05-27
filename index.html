@@ -16,12 +16,12 @@
 
     <title>Login</title>
 </head>
-<body style="background: #265912">
+<body style="background:#747873">
 
-    <div class="p-3 mb-2 bg-secondary text-white">
+    <div class="p-3 mb-2  text-white">
         <div align="center">
-            <br />
-            <h1>REGISTRO</h1>
+            <h1 class="display-2" >Sign in</h1>
+            
             <br />
         </div>
         <div class="container-fluid">
@@ -29,16 +29,21 @@
                 <div class="col-4">
                     <form method="post" action="user.php">
                         <div class="form-group ">
-                            <label for="nombre">Usuario</label>
-                            <input type="text" name="nombre" class="form-control" id="nombre" />
-                            <br /><br />
+                            <svg class="bi bi-person-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg>
+                            <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Usuario" />
+                            <br />
                         </div>
                         <div class="form-group">
-                            <label for="password">Contrase�a</label>
-                            <input type="password" name="pass" class="form-control" />
+                            <svg class="bi bi-lock-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="11" height="9" x="2.5" y="7" rx="2" />
+                                <path fill-rule="evenodd" d="M4.5 4a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z" />
+                            </svg>
+                            <input type="password" name="pass" class="form-control" placeholder="Contraseña" />
                             <br /><br />
                         </div>
-                        <button type="submit" class="btn btn-dark">Login</button>
+                        <button type="button" class="btn btn-dark btn-lg btn-block">Login</button>
                     </form>
 
                 </div>
