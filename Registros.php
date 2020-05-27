@@ -16,7 +16,7 @@
 
 
 
-        <title >VENTAS</title>
+       
 
     </head>
 
